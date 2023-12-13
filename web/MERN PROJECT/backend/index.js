@@ -7,7 +7,7 @@ app.get('/', (request, Response) => {
     console.log(request)
     return Response.status(234).send('welcome To fira flash website fuck you betselot');
 });
-//new
+//ne
 mongoose
     .connect(mongoDBURL)
     .then(() => {
