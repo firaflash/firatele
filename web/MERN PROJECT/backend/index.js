@@ -5,7 +5,7 @@ import mongoose from "mongoose";
 const app = express();
 app.get('/', (request, Response) => {
     console.log(request)
-    return Response.status(234).send('welcome To fira flash website');
+    return Response.status(234).send('welcome To fira flash website fuck you betselot');
 });
 //new
 mongoose
